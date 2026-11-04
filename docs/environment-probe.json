@@ -1,0 +1,20 @@
+{
+  "environment": "env_lerobot",
+  "torch": "2.11.0+cu128",
+  "sm120_bf16_forward_backward": "passed on both GPUs",
+  "upstream_openpi_imports": {
+    "pi0_pytorch": "missing flax",
+    "training.config": "missing etils",
+    "websocket_client_policy": "missing websockets"
+  },
+  "stock_transformers_gemma_forward_supports_adarms_cond": false,
+  "status": "dependencies installed in env_lerobot; LIBERO rendering passed; upstream model forward requires adaptation",
+  "libero_render": "passed: spatial task 0 reset + 10 steps + two 256x256 RGB images",
+  "openpi_dummy_model_init": "passed",
+  "openpi_dummy_forward": "failed: PaliGemmaForConditionalGeneration has no attribute language_model under Transformers 5.5.4",
+  "runtime_preserved": [
+    "torch 2.11.0+cu128",
+    "transformers 5.5.4",
+    "numpy 2.2.6"
+  ]
+}

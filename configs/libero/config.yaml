@@ -1,0 +1,5 @@
+assets: /home/cy518/workspace/dcb/pi05-libero-reproduction/openpi/third_party/libero/libero/libero/assets
+bddl_files: /home/cy518/workspace/dcb/pi05-libero-reproduction/openpi/third_party/libero/libero/libero/bddl_files
+benchmark_root: /home/cy518/workspace/dcb/pi05-libero-reproduction/openpi/third_party/libero/libero/libero
+datasets: /home/cy518/workspace/dcb/pi05-libero-reproduction/data
+init_states: /home/cy518/workspace/dcb/pi05-libero-reproduction/openpi/third_party/libero/libero/libero/init_files

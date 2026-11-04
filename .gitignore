@@ -1,0 +1,9 @@
+openpi/
+checkpoints/
+data/
+logs/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
